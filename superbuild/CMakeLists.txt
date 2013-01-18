@@ -38,7 +38,7 @@ message( "External project - OpenCV" )
 
 ExternalProject_Add(opencv
   GIT_REPOSITORY ${git_protocol}://code.opencv.org/opencv.git
-  GIT_TAG 2.3.1
+  GIT_TAG 2.4.3.2
   SOURCE_DIR opencv
   BINARY_DIR opencv-build
   UPDATE_COMMAND ""
